@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pintrest Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="nav-bar">
+            <!-- logo -->
+            <div class="nav-logo">
+                <i class="fa-brands fa-pinterest"></i>
+                <h1>Pintrest</h1>
+            </div>
+            <div class="space"></div>
+            <!-- about -->
+            <div class="nav-about">
+                <p>About</p>
+                <p>Business</p>
+                <p>Press</p>
+            </div>
+            <!-- login -->
+            <div class="login-div">
+                <a href="#pop-up" >
+                    <button class="login" type="button">
+                        <div> Log in</div> 
+                    </button>
+                </a>
+            </div>
+            
+            <!-- sign up -->
+            <div class="signup-div">
+                <a href="#pop-up2" >
+                <button class="signup login" type="button"> 
+                    <div>sign up</div> 
+                </button>
+            </a>
+            </div>
+
+
+        </div>
+    </header>
+    <!-- body -->
+    <div class="body-content">
+<!-- login pop up -->
+        <div id="pop-up" class="overlay">
+            <div class="pop_up_box">
+                <a class="close" href="#">&times;</a>
+                <div>
+                    <i class="fa-brands fa-pinterest "></i> 
+                </div>
+                <div class="welcome">
+                    <h1>Welcome to Pintrest </h1>
+                    <p>Find new ideas to try</p>
+                </div>
+                
+                
+                <div class="input-box">
+                    <div class="email">
+                        <p id="email-text"> Enter email</p>
+                        <input type="text" placeholder="Email address">
+                    </div>
+    
+                    <div class="pasword">
+                        <p id="pasword-text"> Enter pasword</p>
+                        <input type="text" placeholder="Password" >
+                        <p><b> Forgotten your password?</b></p>
+                    </div>
+                    
+                    
+                </div>
+                <div class="confirm-login">
+                    <button class="login2" type="button">
+                        <div>Log in</div> 
+                    </button>
+                </div>
+
+                <div><b>or</b></div>
+                <div class="other-signup">
+                    <div class="faccebook">
+                        <i class="fa-brands fa-facebook"></i>
+                        <p>Continue with Facebook</p>
+                    </div>
+                    <div class="google">
+                        <i class="fa-brands fa-google"></i>
+                        <p>Continue with Google</p>
+                    </div>
+                </div>
+
+                <div class="redirect-to-signup">
+                    <h4>Not on Pintrest yet?</h4>
+                    <a href="#pop-up2" >
+                        <div>sign up</div> 
+                    </a>
+                </div>
+
+            </div>
+        </div>
+<!-- sign in pop up -->
+        <div id="pop-up2" class="overlay">
+            <div class="pop_up_box">
+                <a class="close" href="#">&times;</a>
+                <div>
+                    <i class="fa-brands fa-pinterest "></i> 
+                </div>
+                <div class="welcome">
+                    <h1>Welcome to Pintrest </h1>
+                    <p>Find new ideas to try</p>
+                </div>
+                
+                
+                <div class="input-box">
+                    <div class="username">
+                        <p id="email-text">Enter username</p>
+                        <input type="text" placeholder="Pick a username">
+                    </div>
+                    <div class="email">
+                        <p id="email-text"> Enter email</p>
+                        <input type="text" placeholder="Email address">
+                    </div>
+    
+                    <div class="pasword">
+                        <p id="pasword-text"> Enter pasword</p>
+                        <input type="text" placeholder="Create a Password" >
+                       
+                    </div>
+                    
+                    
+                </div>
+                <div class="confirm-login">
+                    <button class="login2" type="button">
+                        <div>Continue</div> 
+                    </button>
+                </div>
+
+                <div><b>or</b></div>
+                <div class="other-signup">
+                    <div class="faccebook">
+                        <i class="fa-brands fa-facebook"></i>
+                        <p>Continue with Facebook</p>
+                    </div>
+                    <div class="google">
+                        <i class="fa-brands fa-google"></i>
+                        <p>Continue with Google</p>
+                    </div>
+                </div>
+                <div class="redirect-to-signup">
+                    <h4>Already a member?</h4>
+                    <a href="#pop-up" >
+                        <div>Log in</div> 
+                    </a>
+                </div>
+
+            </div>
+           
+        </div>
+        
+    </div>
+<!----------------- -->
+<!-- background -->
+    <main>
+        <div class="main-div-outer-box">
+           <div class="col1 col"> 
+                <div class="box11 box" style="background-image: url('images/box11.jpg');"></div> 
+                <div class="box12 box" style="background-image: url('images/box12.jpg');"></div> 
+                <div class="box10 box" style="background-image: url('images/box10.jpg');"></div> 
+            </div>
+           <div class="col2 col">
+                <div class="box21 box" style="background-image: url('images/box21.jpg');"></div> 
+                <div class="box22 box" style="background-image: url('images/box22.jpg');"></div> 
+                <div class="box23 box" style="background-image: url('images/box23.jpg');"></div> 
+                
+           </div>
+           <div class="col3 col">
+                <div class="box31 box" style="background-image: url('images/box31.jpg');"></div> 
+                <div class="box32 box" style="background-image: url('images/box32.jpg');"></div> 
+                <div class="box33 box" style="background-image: url('images/box33.jpg');"></div> 
+           </div>
+           <div class="col4 col">
+                <div class="box41 box" style="background-image: url('images/box41.jpg');"></div> 
+                <div class="box42 box" style="background-image: url('images/box42.jpg');"></div> 
+                <div class="box43 box" style="background-image: url('images/box43.jpg');"></div> 
+           </div>
+           <div class="col5 col">
+                <div class="box51 box" style="background-image: url('images/box51.jpg');"></div> 
+                <div class="box52 box" style="background-image: url('images/box52.jpg');"></div> 
+                <div class="box53 box" style="background-image: url('images/box53.jpg');"></div> 
+           </div>
+           <div class="col6 col">
+                <div class="box61 box" style="background-image: url('images/box61.jpg');"></div> 
+                <div class="box62 box" style="background-image: url('images/box62.jpg');"></div> 
+                <div class="box63 box" style="background-image: url('images/box63.jpg');"></div> 
+           </div>
+           <div class="col7 col">
+                <div class="box71 box" style="background-image: url('images/box71.jpg');"></div> 
+                <div class="box72 box" style="background-image: url('images/box72.jpg');"></div> 
+                <div class="box73 box" style="background-image: url('images/box73.jpg');"></div> 
+           </div>
+           
+
+        </div>
+
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="foot-panel">
+            <div>Terms of service</div>
+            <div>Privacy Policies</div>
+            <div>&copy; made by Jimpi &hearts;</div>
+        </div>
+    </footer>
+    
+</body>
+</html>

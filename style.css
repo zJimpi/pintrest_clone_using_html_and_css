@@ -1,0 +1,353 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: border-box;
+
+}
+/* ----------------nave bar---------------- */
+.nav-bar{
+    color:#e60023;
+    display:flex;
+    justify-content: space-evenly;
+    height: 35px;
+    padding:16px;
+    
+
+}
+/* logo */
+.nav-logo{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+.nav-logo i{
+   height:2rem;
+   font-size: 2.5rem;
+   margin-right: 10px;
+}
+.nav-logo h1{
+    font-weight: 500;
+    color: #cc0000;
+}
+/* space */
+.space{
+    width: 100%;
+   
+}
+/* about */
+.nav-about{
+    display: flex;
+    justify-content: space-evenly;
+   
+    color: black ;
+    
+    
+}
+.nav-about p{
+    margin-right: 10px;
+    font-weight: 600;
+}
+/* log in */
+.login{
+    background-color: #e60023;
+    color: white;
+    width:70px;
+    
+    border: none;
+    padding: 8px 12px;
+    font-weight: 800;
+
+    border-radius: 17px; 
+    
+}
+.login:active{
+    background-color: #ad0404;
+    color: white;
+}
+.login-div{
+    margin-right:10px ;
+}
+
+.signup{
+    width:90px;
+    background-color: #d8dcdc;
+    color: #111111;
+    
+}
+
+
+/*---------------- popup mechanism------------- */
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    transition: opacity 400ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  /* ---------------------------------- */
+.pop_up_box{
+    position: absolute;
+    right:10%;
+    top:10%;    
+    background-color: white;
+    width:25rem;
+    text-align: center;
+    padding: 2%;
+    border-radius: 1.5rem; 
+  }
+  
+  .close{
+    position: absolute;
+    right: 4%;
+    top:0.5%;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: #111111;
+  }
+  .pop_up_box i{
+    font-size: 3.5rem;
+    color: #cc0000;
+  }
+
+  .welcome{
+    margin-bottom: 10%;
+  }
+  .username{
+    margin-bottom: 5%;
+  }
+  .email{
+    margin-bottom: 5%;
+  }
+  .pasword{
+    margin-bottom: 10%;
+  }
+  .input-box{
+    margin: 0% 20% 0% 20%;
+    text-align: left;
+    
+  }
+  .input-box input{
+    width :100%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+    padding: 1.5%;
+  }
+  .confirm-login{
+    margin: 0% 20% 0% 20%;
+    
+    
+  }
+  .login2{
+    color: white;
+    background-color: #e60023;
+    border: none;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 2rem;
+    font-weight: 700;
+    height: 2.5rem;
+  }
+  .login2:active{
+    background-color: #ad0404;
+}
+
+.redirect-to-signup{
+    border-top: 0.1rem solid rgb(218, 213, 213);
+    display: flex;
+    justify-content: center;
+    padding: 0.6rem;
+}
+
+
+.other-signup{
+
+margin: 5% 20% 5% 20%;
+}
+
+.faccebook{
+  display: flex;
+  color: white;
+  background-color:#166fe3;
+  padding: 0.4rem;
+  border-radius:2rem ;
+  font-weight: 700;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.faccebook i{
+  color: white;
+  font-size: 2rem;
+  margin-right: 0.3rem;
+}
+.google{
+  display: flex;
+  padding: 0.4rem;
+  border-radius:2rem ;
+  font-weight: 700;
+  align-items: center;
+  border: 1px solid gray;
+}
+.google i{
+  color:rgb(170, 162, 162);
+ 
+  font-size: 2rem;
+  margin-right: 0.3rem;
+}
+/* ---------------backgound image---------------- */
+.main-div-outer-box{
+  background-color: lightgray;
+  width: 100%;
+  height: 832px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.col{
+  width: 15%;
+  height:100%;
+  margin-right: 1%;
+
+  /* border: 2px solid black; */
+  
+}
+.col1{
+  margin-left: 4%;
+  
+}
+
+.col7{
+ 
+  margin-right: 4%;
+}
+
+.box{
+  height: 30%;
+  
+  width:100%;
+  /* border: 2px solid red; */
+  align-items: center;
+  margin: 10% 0% 10% 0%;
+  border-radius: 0.8rem;
+  background-size: contain;
+  background-size: cover;
+  
+}
+
+.box11{
+  margin-top: 30%;
+}
+
+.box21{
+  margin-top: 0%;
+}
+.box31{
+  margin-top: 50%;
+}
+.box41{
+  margin-top: 5%;
+}
+.box51{
+  margin-top: 50%;
+}
+.box61{
+  margin-top: 0%;
+}
+.box71{
+  margin-top: 20%;
+}
+
+
+
+/* --------------------end of pop up--------------- */
+.foot-panel{
+    position: fixed;
+    bottom: 0px;;
+    height: 60px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* -------------mobile view---------------- */
+@media (max-width: 500px) {
+  /* nav bar */
+  .nav-bar{
+    font-size: 0.8rem;
+  }
+  .nav-logo i{
+    font-size: 2rem; 
+  }
+  /* about */
+  .nav-about{
+    display: none ;
+  }
+  /* background */
+  .col1{
+    display:none;
+  }
+  .col5{
+    display:none;
+  }
+  .col7{
+    display:none;
+  }
+  .col{
+    width: 100%;
+    height:100%;
+    /* border: 2px solid black;
+     */
+  }
+  .box31{
+    margin-top: 0%;
+  }
+  .box41{
+    margin-top: 0%;
+  }
+  /* popup */
+  .pop_up_box{
+    position: absolute;
+    right:10%;
+    top:10%;    
+    background-color: white;
+    width:20rem;
+    text-align: center;
+    border-radius: 1.5rem; 
+    font-size: 0.9rem;
+  }
+  .input-box{
+    margin: 0% 5% 0% 5%;
+    text-align: left;
+    
+  }
+
+.confirm-login{
+  margin: 0% 5% 0% 5%;
+    
+    
+  }
+.other-signup{
+
+margin: 5%;
+}
+
+  /* footer */
+  .foot-panel{
+    font-size: 0.8rem;
+  }
+}
+
