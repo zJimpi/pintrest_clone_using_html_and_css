@@ -303,6 +303,9 @@ margin: 5% 20% 5% 20%;
   .col5{
     display:none;
   }
+.col6{
+    display:none;
+  }
   .col7{
     display:none;
   }
@@ -320,9 +323,9 @@ margin: 5% 20% 5% 20%;
   }
   /* popup */
   .pop_up_box{
-    position: absolute;
+/*     position: absolute;
     right:10%;
-    top:10%;    
+    top:10%;     */
     background-color: white;
     width:20rem;
     text-align: center;
